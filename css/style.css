@@ -3,7 +3,7 @@ html, body {
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
-    background-color: black;
+    background-color: #0f0f0f;
 }
 
 .template {
@@ -22,26 +22,19 @@ html, body {
     height: 143px;
     padding: 5px;
     margin: auto;
-    background-image: linear-gradient(to bottom, transparent 60%, rgb(29, 27, 12) 1%, #e8ee99);
+    background-image: linear-gradient(to bottom, transparent 50%, rgb(3, 3, 3) 1%, #e8ee99);
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
 }
 
 .cliente-logo {
-    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5);
-    border-radius: 10px;
+    height: 140px;
     background: url("../img/logo.png") no-repeat;
     background-size: contain;
     background-position: 50%;
-    background-color: #88837a;
-}
-
-.div-cliente{
-    height: 30px;
-    margin: auto -10px auto -5px;
-    padding: 5px;
-    background-color: #88837ad8;
-    border-top-right-radius: 5px;
+    background-color: white;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
 }
 
 .cliente-contato {
@@ -49,12 +42,16 @@ html, body {
 }
 
 .cliente-nomeFantasia {
-    height: 100%;
-    width: 95%;
+    max-width: 320px;
     margin: auto;
-    background: url("../img/nomeFantasia.png") no-repeat;
-    background-size: contain;
-    background-position: 50%;
+    padding: 3px;
+    font-size: 19px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #24241a;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.1);
 }
 
 h2 {
