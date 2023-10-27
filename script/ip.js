@@ -6,7 +6,7 @@ function carregar() {
 				})
 				.then((data) => {
 					if (data.ip == '177.8.250.214') {
-                        ip_sistema.src = 'http://192.168.1.100/mmrest/autocliente/'
+                        ip_sistema.src = 'http://ipfixo.in:55807/'
                     }
 				});
 }
